@@ -169,7 +169,7 @@
                 await new Promise(resolve => setTimeout(resolve, 1500));
 
                 // Call the Gemini API to get a response
-                const apiKey = ""; 
+                const apiKey = "AIzaSyD5w83borgoqmFbgHuF1DmrjXxILDCd1hM"; 
                 const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
                 const payload = {
                     contents: [{ parts: [{ text: messageText }] }],
